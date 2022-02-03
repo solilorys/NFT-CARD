@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+body{
+    font-family: "Outfit", sans-serif;
+    background-color:  hsl(217, 54%, 11%);
+    margin: 0px;
+}
+
+main{
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tudo{
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    padding: 15px 10px 15px 10px;
+    margin: auto;
+}
+
+img{
+    height: 280px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.foto{
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+/*
+.image{
+    width: 100%;
+    height: auto;
+}
+*/
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .2s ease;
+    background-color: rgba(0, 0, 255, 0.226);
+    border-radius: 8px;
+}
+
+.icon {
+    color: rgb(37, 4, 4);
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.foto:hover .overlay {
+    opacity: 1;
+}
+
+.fa-user:hover {
+    color: #eee;
+}
+
+h1{
+    font-size: 20px;
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+    padding-left: 7px;
+}
+
+h1:hover{
+    color: hsl(228, 45%, 44%); 
+}
+
+a{
+    text-decoration: none;
+    color: hsl(228, 45%, 44%);
+}
+
+.ethe{
+    text-align: left;
+    display: inline-flex;
+    width: 100px;
+
+}
+
+#ethereum{
+    height: 15px;
+    padding-top: 16px;
+}
+
+
+.clock{
+    text-align: left;
+    display: inline-flex;
+    width: 100px;
+    margin-left: 50px;
+}
+
+#relogio{
+    height: 15px;
+    padding-top: 16px;
+    padding-left: 10px;
+}
+
+
+p{
+    font-size: 15px;
+    width: 250px;
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    text-align: left;
+    padding-left: 7px;
+}
+
+hr{
+    border: 0;
+	border-top: 1px solid hsl(215, 32%, 27%);
+    margin: 5px;
+}
+
+.avatar{
+    display: inline-flex;
+    width: 220px;
+    padding-right: 50px;
+    color: white;
+}
+
+#name{
+    color: white;
+}
+
+#name:hover{
+    color: hsl(228, 45%, 44%); 
+}
+
+#foto{
+    height: 25px;
+    margin: auto;
+    position: relative;
+    padding-right: 7px;
+
+}
+
+/*
+@media (max-width: 600px){
+    img{
+        width: ;
+    }
+}
+/*  
+
+/* .attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+/*
